@@ -5,7 +5,7 @@
 - [Description](#description)
 - [Installation](#installation)
 - [Database](#database)
-- [NPM-Packages](#packages)
+- [NPM Packages](#packages)
 - [Github](#github)
 - [Hekou](#heroku)
 - [Screenshot](#screenshot)
@@ -53,4 +53,4 @@ Following NPM packages used in this project, also found in the package.json file
 
 ## Screenshot
 
-[Back-To-Top](#tech-blog)
+[Back To Top](#tech-blog)
