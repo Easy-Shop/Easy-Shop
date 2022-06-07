@@ -25,7 +25,7 @@ router.get("/", (req, res) => {
 
       res.render("homepage", {
         posts,
-        // loggedIn: req.session.loggedIn,
+        loggedIn: req.session.loggedIn,
       });
     })
     .catch((err) => {
@@ -34,8 +34,8 @@ router.get("/", (req, res) => {
     });
 });
 
-router.get('/login', (req,res) => {
-    res.render('login');
-})
+router.get("/login", (req, res) => {
+  res.render("login");
+});
 
 module.exports = router;

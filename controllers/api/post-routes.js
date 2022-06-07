@@ -73,7 +73,7 @@ router.post("/", (req, res) => {
     image_url: req.body.image_url,
     price: req.body.price,
     // Change later to session
-    user_id: req.body.user_id,
+    user_id: req.session.user_id,
   })
     .then((dbPostData) => res.json(dbPostData))
     .catch((err) => {

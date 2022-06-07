@@ -1,6 +1,6 @@
 const router = require("express").Router();
 const sequelize = require("../../config/connection");
-const { Post, User, Review } = require("../../models");
+const { Review } = require("../../models");
 
 // Get all Reviews
 router.get("/", (req, res) => {
@@ -17,7 +17,7 @@ router.post("/", (req, res) => {
   Review.create({
     review_text: req.body.review_text,
     post_id: req.body.post_id,
-    user_id: req.body.user_id,
+    user_id: req.session.user_id,
   })
     .then((dbReviewData) => res.json(dbReviewData))
     .catch((err) => {
