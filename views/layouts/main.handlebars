@@ -36,7 +36,11 @@
                 <a href="/" class="nav-item nav-link">Home</a>
                 <a href="#" class="nav-item nav-link">About</a>
                 <a href="#" class="nav-item nav-link">Shop</a>
-                <a href="#" class="nav-item nav-link">Login</a>
+                {{#if loggedIn}}
+                <a href="/" class="nav-item nav-link" id="logout">Logout</a>
+                {{ else }}
+                <a href="/login" class="nav-item nav-link">Login</a>
+                {{/if}}
               </div>
               <form class="d-flex ms-auto">
                 <input
