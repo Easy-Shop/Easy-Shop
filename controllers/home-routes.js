@@ -98,4 +98,8 @@ router.get("/post/:id", (req, res) => {
     });
 });
 
+router.get('/newpost', (req, res) => {
+  res.render('add-post', {loggedIn: true});
+});
+
 module.exports = router;
