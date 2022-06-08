@@ -1,0 +1,33 @@
+
+{{#if posts.length}}
+<section>
+  <ol>
+    {{#each posts as |post|}}
+
+    <div class="card">
+        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+            <img src="{{image_url}}" class="img-fluid"/>
+            <a href="/posts/{{id}}">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+            </a>
+        </div>
+        <div class="card-body">
+            <h4 class="card-title">{{title}}</h4>
+            <h5 class="card-text">${{price}}</h5>
+            <h6 class="card-text">Created: {{format_date created_at}}</h6>
+            <button type="button" class="delete-post-btn">Delete</button>
+        </div>
+    </div>
+    {{/each}}
+  </ol>
+</section>
+
+{{/if}}
+
+<div class="add-post">
+    <button type="button" class="btn btn-secondary bg-dark btn-lg">+ New Post</button>
+</div>
+
+
+<script src="/javascript/add-post.js"></script>
+
