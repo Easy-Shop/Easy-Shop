@@ -1,26 +1,44 @@
-html,
-body,
-header,
-.carousel {
-  height: 10vh;
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 109px;
 }
 
-header nav {
-  background: #202020;
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: zindex-fixed;
 }
-header .navbar {
-  height: 120px;
+
+.navi-bar {
+  height: 100px;
 }
-header .navbar-brand {
-  font-size: 80px;
+div .navbar-brand {
+  font-size: 60px;
+  color: #efefef;
 }
+
+.navbar-nav .nav-link {
+  color: #efefef;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+
 .card-body h4,
 h5 {
   font-size: 20px;
 }
 
 .info {
-  margin-bottom: 30px;
+  margin: 30px;
+  text-align: center;
 }
 
 .block {
@@ -45,27 +63,15 @@ h5 {
 
 @media (min-width: 800px) and (max-width: 850px) {
   html,
-  body,
-  .carousel {
+  body {
     height: 100vh;
   }
 }
-.view,
-body,
-html {
-  height: 80%;
-}
-.carousel {
-  height: 50%;
-}
-.carousel .carousel-inner,
-.carousel .carousel-inner .active,
-.carousel .carousel-inner .carousel-item {
-  height: 100%;
-}
+
 @media (max-width: 776px) {
-  .carousel {
-    height: 100%;
+  html,
+  body {
+    height: 100vh;
   }
 }
 
@@ -105,4 +111,28 @@ html {
   width: 50%;
   padding-top: 20px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.copyright-area {
+  background: #202020;
+  padding: 25px 0;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+}
+.copyright-text p a {
+  color: #ff5e14;
+}
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.footer-menu li:hover a {
+  color: #ff5e14;
+}
+.footer-menu li a {
+  font-size: 14px;
+  color: #878787;
 }
