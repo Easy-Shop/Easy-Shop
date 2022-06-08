@@ -1,21 +1,24 @@
-<form class="login-form">
-  <div class="mb-3">
-    <label for="loginUsername" class="form-label">Username</label>
-    <input type="text" class="form-control" id="loginUsername" aria-describedby="emailHelp">
-  </div>
-  <div class="mb-3">
-    <label for="loginPassword" class="form-label">Password</label>
-    <input type="password" class="form-control" id="loginPassword">
-  </div>
-  <div>
-    <button type="submit" class="btn btn-primary">Login</button>
-  </div>
-  
-  <div>
-    <a href="/signup">Sign up!</a>
-  </div>
-  
-</form>
+<div class="login-box">
+  <form class="login-form">
+    <div class="mb-3" id="username-box">
+      <label for="loginUsername" class="form-label">Username</label>
+      <input type="text" class="form-control" id="loginUsername" aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3" id="password-box">
+      <label for="loginPassword" class="form-label">Password</label>
+      <input type="password" class="form-control" id="loginPassword">
+    </div>
+    <div class="click-button">
+      <button type="submit" class="btn btn-primary">Login</button>
+    </div>
+    
+    <div>
+      <a href="/signup">Sign up!</a>
+    </div>
+    
+  </form>
+</div>
 
 
 <script src="/javascript/login.js"></script>
+
