@@ -380,3 +380,143 @@ ul {
   color: #878787;
 }
 
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 109px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: zindex-fixed;
+}
+
+.navi-bar {
+  height: 100px;
+}
+div .navbar-brand {
+  font-size: 60px;
+  color: #efefef;
+}
+
+.navbar-nav .nav-link {
+  color: #efefef;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.card-body h4,
+h5 {
+  font-size: 20px;
+}
+
+.info {
+  margin: 30px;
+  text-align: center;
+}
+
+.block {
+  padding: 60px 0px;
+  background: #efefef;
+  color: #252525;
+  text-align: center;
+}
+
+.card-img-top {
+  height: 200px;
+  width: 80px;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  .carousel {
+    height: 100vh;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body {
+    height: 100vh;
+  }
+}
+
+@media (max-width: 776px) {
+  html,
+  body {
+    height: 100vh;
+  }
+}
+
+.login-box {
+  margin: 50px auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 50%;
+  padding-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+#username-box {
+  margin: 10px;
+}
+#password-box {
+  margin: 10px;
+}
+#email-box {
+  margin: 10px;
+}
+.submit-button {
+  margin: 20px;
+}
+.click-button {
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 10px;
+}
+.signup-box {
+  margin: 50px auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 50%;
+  padding-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.copyright-area {
+  background: #202020;
+  padding: 25px 0;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+}
+.copyright-text p a {
+  color: #ff5e14;
+}
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.footer-menu li:hover a {
+  color: #ff5e14;
+}
+.footer-menu li a {
+  font-size: 14px;
+  color: #878787;
+}
+
+
