@@ -39,7 +39,7 @@ Following NPM packages used in this project, also found in the package.json file
 - express-handlebars
 - express-session
 - myslq2
-- doetnv
+- dotenv
 - connect-session-sequelize
 - bcrypt
 
