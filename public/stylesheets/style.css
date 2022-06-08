@@ -87,11 +87,22 @@ html {
 #password-box {
   margin: 10px;
 }
+#email-box {
+  margin: 10px;
+}
 .submit-button {
   margin: 20px;
 }
-.sign-up {
+.click-button {
   font-size: 20px;
   font-weight: bolder;
   margin: 10px;
+}
+.signup-box {
+  margin: 50px auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 50%;
+  padding-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
