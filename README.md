@@ -49,7 +49,7 @@ Following NPM packages used in this project, also found in the package.json file
 
 ## Heroku
 
-- url -
+- url - https://secure-reaches-05381.herokuapp.com/
 
 ## Screenshot
 
