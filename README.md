@@ -53,4 +53,24 @@ Following NPM packages used in this project, also found in the package.json file
 
 ## Screenshot
 
-[Back To Top](#tech-blog)
+Homepage
+
+![alt text](./images/Homepage.png)
+
+Login Page
+
+![alt text](./images/Login.png)
+
+Sign Up Page
+
+![alt text](./images/Signup.png)
+
+Dashboard
+
+![alt text](./images/Dashboard.png)
+
+New Post
+
+![alt text](./images/NewPost.png)
+
+[Back To Top](#easy-shop)
