@@ -52,9 +52,6 @@ Following NPM packages used in this project, also found in the package.json file
 - url - https://secure-reaches-05381.herokuapp.com/
 
 ## Screenshot
-<img width="1440" alt="Screen Shot 2022-06-12 at 7 38 07 PM" src="https://user-images.githubusercontent.com/94888460/173258441-8ff77d83-d1a2-4c92-ad51-eaf5d0b7203b.png">
-<img width="395" alt="Screen Shot 2022-06-12 at 7 39 43 PM" src="https://user-images.githubusercontent.com/94888460/173258446-67ab9865-3592-44d0-a56b-dc3dd48a08e1.png">
-<img width="311" alt="Screen Shot 2022-06-12 at 7 41 59 PM" src="https://user-images.githubusercontent.com/94888460/173258449-3c4735d9-e050-4df8-b327-cf14189fb66b.png">
 
 Homepage
 
