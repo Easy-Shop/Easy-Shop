@@ -56,4 +56,24 @@ Following NPM packages used in this project, also found in the package.json file
 <img width="395" alt="Screen Shot 2022-06-12 at 7 39 43 PM" src="https://user-images.githubusercontent.com/94888460/173258446-67ab9865-3592-44d0-a56b-dc3dd48a08e1.png">
 <img width="311" alt="Screen Shot 2022-06-12 at 7 41 59 PM" src="https://user-images.githubusercontent.com/94888460/173258449-3c4735d9-e050-4df8-b327-cf14189fb66b.png">
 
-[Back To Top](#tech-blog)
+Homepage
+
+![alt text](./images/Homepage.png)
+
+Login Page
+
+![alt text](./images/Login.png)
+
+Sign Up Page
+
+![alt text](./images/Signup.png)
+
+Dashboard
+
+![alt text](./images/Dashboard.png)
+
+New Post
+
+![alt text](./images/NewPost.png)
+
+[Back To Top](#easy-shop)
